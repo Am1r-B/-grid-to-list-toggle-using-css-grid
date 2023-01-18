@@ -4,3 +4,9 @@ body {
   height: 100vh;
   background-color: azure;
 }
+
+.container {
+  width: 90vw;
+  max-width: 800px;
+  margin: 50px auto;
+}
