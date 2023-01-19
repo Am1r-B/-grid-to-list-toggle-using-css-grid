@@ -31,3 +31,18 @@ body {
   background: white;
   margin-bottom: 20px;
 }
+
+#card-wrapper {
+  display: grid;
+  width: 100%;
+  margin-top: 50px;
+  gap: 10px 20px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list {
+  grid-template-columns: 1fr;
+}
